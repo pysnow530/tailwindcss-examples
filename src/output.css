@@ -842,6 +842,27 @@
   .perspective-origin-\[200\%_-150\%\] {
     perspective-origin: 200% -150%;
   }
+  .hover\:bg-zinc-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-zinc-700);
+      }
+    }
+  }
+  .hover\:bg-zinc-800 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-zinc-800);
+      }
+    }
+  }
+  .hover\:bg-zinc-900 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-zinc-900);
+      }
+    }
+  }
 }
 @property --tw-translate-x {
   syntax: "*";
